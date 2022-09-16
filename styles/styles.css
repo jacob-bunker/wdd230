@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     font-size: 16px;
     font-family: sans-serif, 'Times New Roman', Times, serif;
@@ -53,4 +54,61 @@ header img{
 footer{
     font-size: 1rem;
     height: 90px; 
+=======
+body{
+    font-size: 16px;
+    font-family: sans-serif, 'Times New Roman', Times, serif;
+    color: #000000;
+    height: 100%;
+    line-height: 1.5;  
+}
+
+h1{
+    font-size: 1.5rem;
+    margin: 0.15rem;
+}
+
+h2{
+    font-size: 1rem;  
+    margin-bottom: 0.5rem;
+}
+
+header, nav, main, footer {
+    margin: 0 auto;
+    padding: 0.75rem;
+    max-width: 45rem;
+}
+
+header{
+    margin-top:10px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+header, footer{
+    text-align: center;
+    background-color: #08a110;
+    color: white;  
+      
+}
+
+header img{
+    width: 200px;
+    
+    height: auto;  
+
+    grid-column: 1;
+}
+#name{
+    text-align:right;
+    
+}
+.obs{
+    color: #6c8e99;    
+}
+
+footer{
+    font-size: 1rem;
+    height: 90px; 
+>>>>>>> 1176bd6 (website)
 }

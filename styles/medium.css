@@ -1,0 +1,11 @@
+@media(min-width:32.5em){
+    h1{
+        font-size: 3rem;
+    }
+    header img{
+        width: 300px;
+    }
+    body{
+        font-size: 25px;
+    }
+}

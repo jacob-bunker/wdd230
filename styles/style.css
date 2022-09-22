@@ -24,11 +24,8 @@ header, nav, main, footer {
     max-width: 45rem;
 }
 
-header{
-    margin-top:10px;
-    display: grid;
-    grid-template-columns: 1fr;
-}
+
+
 
 header, footer{
     text-align: center;
@@ -42,7 +39,6 @@ header img{
     
     height: auto;  
 
-    grid-column: 1;
 }
 #name{
     text-align:right;

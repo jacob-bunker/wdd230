@@ -1,0 +1,15 @@
+@media only screen and(min-width: 1028px) {
+    h1 {
+      font-size: 3rem;
+    }
+     img {
+      width: 300px;
+    }
+    body {
+      font-size: 25px;
+    }
+    section{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }

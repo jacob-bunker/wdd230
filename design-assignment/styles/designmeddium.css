@@ -1,0 +1,10 @@
+@media(max-width:1083px) and (min-width:560px){
+  section{
+    display: grid;
+    grid-template: 1fr 1fr;
+  }
+  #contrast{
+    grid-column: span 2;
+  }
+  
+}

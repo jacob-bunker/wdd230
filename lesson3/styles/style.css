@@ -26,22 +26,26 @@ header, nav, main, footer {
 
 
 nav{
-    display: flex;
-    justify-content: space-around;
+    display: block;
+    height: auto;
+    flex-direction: column;
 }
-
-a{
-    /*background-color: #152215;*/
-    color: #ffffff;
+nav a{
+    display: block;
+    padding: 15px;
+    color: #ffff;
     text-decoration: none;
 }
+section{
+    text-align: center;
 
-
+    color: rgb(114, 114, 114);
+}
 
 
 header, footer{
     text-align: center;
-    background-color: #08a110;
+    background-color: #088a8f;
     color: white;  
       
 }
@@ -60,7 +64,50 @@ header img{
     color: #6c8e99;    
 }
 
+ul{
+    list-style-type: none;
+}
+
+#personas{
+    display:grid;
+    grid-template-columns:  1fr 1fr ;
+
+}
+
+#one{
+    grid-column: 1;
+    
+}
+
+#two{
+    grid-column: 2;
+}
 footer{
     font-size: 1rem;
     height: 90px; 
+}
+
+
+@media(min-width:1083px){
+    body{
+        font-size: 30px;
+    }
+
+    h1{
+        font-size: 45px;
+    }
+    h3{
+        font-size: 35px;
+    }
+    h2{
+        font-size: 40px;
+    }
+    footer{
+        font-size: 30px;
+    }
+    nav {
+        display: grid;
+        grid-template-columns:repeat(4, 1fr);
+    }
+
 }

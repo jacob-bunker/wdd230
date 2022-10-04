@@ -2,26 +2,37 @@
 
 body{
     font-size: 16px;
-    font-family: 'PT Sans', sans-serif;
-    color: #000000;
+    font-family: 'Inter Tight', sans-serif;
+    color: #a5a5a5;
     height: 100%;
     line-height: 1.5;  
+    
 }
 
 h1{
     font-size: 1.5rem;
     margin: 0.15rem;
+
 }
 
 h2{
     font-size: 1rem;  
     margin-bottom: 0.5rem;
+    background-color: #033B4F;
+    color: #ffff;
+    font-family: 'Oswald', sans-serif;
 }
+
+h1,h3{
+    color: #000;
+    font-family: 'Oswald', sans-serif;
+}
+
 
 header, nav, main, footer {
     margin: 0 auto;
     padding: 0.75rem;
-    
+    font-family: 'Oswald', sans-serif;;
 }
 
 
@@ -38,8 +49,6 @@ nav a{
 }
 section{
     text-align: center;
-
-    color: rgb(114, 114, 114);
 }
 
 
@@ -87,6 +96,36 @@ footer{
     height: 90px; 
 }
 
+table, td {
+    font-size: 1.5rem;
+    border: 3px #033B4F;
+    border-style: solid;
+}
+td {
+    padding: 8px;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+#color1{
+    background-color: #088a8f;
+}
+#color2{
+    background-color: #000;
+}
+
+#color3{
+    background-color: #ffff;
+}
+
+#color4{
+    background-color: #a5a5a5;
+    color: #000;
+}
 
 @media(min-width:1083px){
     body{

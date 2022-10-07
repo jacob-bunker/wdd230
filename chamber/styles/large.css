@@ -1,0 +1,23 @@
+@media(min-width:1083px){
+    body{
+        font-size: 30px;
+    }
+
+    h1{
+        font-size: 45px;
+    }
+    h3{
+        font-size: 35px;
+    }
+    h2{
+        font-size: 40px;
+    }
+    footer{
+        font-size: 30px;
+    }
+    nav {
+        display: grid;
+        grid-template-columns:repeat(4, 1fr);
+    }
+
+}

@@ -1,0 +1,12 @@
+@media(min-width: 560px) and (max-width: 1083px ){ 
+    #chamberlogo{
+        max-width: 400px;
+    }
+    .navigation{
+        display: block;
+    }
+    .navigation li:first-child{
+        display: none;
+        flex: 1 1 100%;
+    }
+}

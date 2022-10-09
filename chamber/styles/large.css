@@ -15,9 +15,24 @@
     footer{
         font-size: 30px;
     }
-    nav {
-        display: grid;
-        grid-template-columns:repeat(4, 1fr);
+    nav{
+        text-align: center;
+        font-size: 50px;
+    }
+
+    #chamberlogo{
+        max-width: 400px;
+    }
+    .navigation {
+        display: flex;
+        
+    }
+    .navigation li:first-child{
+        display: none;
+    }
+    .navigation li{
+        display: block;
+        flex: 1 1 100%
     }
 
 }

@@ -7,10 +7,43 @@ body{
     height: 100%;
     line-height: 1.5;  
     
+    
 }
 
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    border: 3px;
+    border-style: solid;
+    border-color: #000;
+    gap: 10px;
+    margin: 2%;
+    padding: 2%;
+}
+
+
+main div{
+    border: 3px;
+    border-style: solid;
+    border-color: #000;
+}
+
+#spotlightsection{
+    padding:2%;
+}
+#joining{
+    display: none;
+
+}
+
+#chamberlogo{
+    max-width: 100px;
+    float: left;
+}
+
+
 h1{
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     margin: 0.15rem;
 
 }
@@ -47,6 +80,36 @@ nav a{
     color: #ffff;
     text-decoration: none;
 }
+
+.navigation li{
+    display: none;
+}
+.navigation li:first-child{
+    display: block;
+}
+
+
+.responsive li{
+    display: block;
+}
+
+#header-img{
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex:left;
+}
+
+#city{
+    font-size: 1rem;
+}
+#chamber{
+    font-size: 0.5rem;
+}
+#title{
+    flex-direction: column;
+}
+
 section{
     text-align: center;
 }

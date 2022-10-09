@@ -1,192 +1,164 @@
-
-
-body{
-    font-size: 16px;
-    font-family: 'Inter Tight', sans-serif;
-    color: #a5a5a5;
-    height: 100%;
-    line-height: 1.5;  
-    
-    
+body {
+  font-size: 16px;
+  font-family: "Inter Tight", sans-serif;
+  color: #a5a5a5;
+  height: 100%;
+  line-height: 1.5;
 }
 
-main{
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  border: 3px;
+  border-style: solid;
+  border-color: #000;
+  gap: 10px;
+  margin: 2%;
+  padding: 2%;
+}
+
+main div {
+  border: 3px;
+  border-style: solid;
+  border-color: #000;
+}
+
+#spotlightsection {
+  padding: 2%;
+}
+#joining {
+  display: none;
+}
+
+#chamberlogo {
+  max-width: 50px;
+  margin: 1rem .5rem;
+  grid-column: 1/2;
+}
+
+#navbox{
+    grid-column: 4/5;
+}
+
+h1 {
+  font-size: 1.25rem;
+  margin: 0.15rem;
+}
+
+h2 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  background-color: #033b4f;
+  color: #ffff;
+  font-family: "Oswald", sans-serif;
+}
+
+h1,
+h3 {
+  color: #000;
+  font-family: "Oswald", sans-serif;
+}
+
+header,
+nav,
+main,
+footer {
+  margin: 0 auto;
+  padding: 0.75rem;
+  font-family: "Oswald", sans-serif;
+}
+
+nav {
+  display: block;
+  height: auto;
+  flex-direction: column;
+}
+nav a {
+  display: block;
+  padding: 15px;
+  color: #ffff;
+  text-decoration: none;
+}
+
+.navigation li {
+  display: none;
+}
+.navigation li:first-child {
+  display: block;
+}
+
+.responsive li {
+  display: block;
+}
+
+#grid{
     display: grid;
-    grid-template-columns: 1fr;
-    border: 3px;
-    border-style: solid;
-    border-color: #000;
-    gap: 10px;
-    margin: 2%;
-    padding: 2%;
+    grid-template-columns: 66px auto auto auto;
+    grid-template-rows: 1fr auto;
+}
+#city {
+  font-size: 1rem;
+  margin: 0;
+  text-align: left;
+}
+#chamber {
+  font-size: 0.75rem;
+  margin:0;
+  text-align: left;
+}
+#title {
+  flex-direction: column;
+   align-self: center;
+  grid-column: 2/3;
 }
 
-
-main div{
-    border: 3px;
-    border-style: solid;
-    border-color: #000;
+#todaysdate{
+    grid-column: 1/ span 4;
+    grid-row: 2/3;
 }
 
-#spotlightsection{
-    padding:2%;
-}
-#joining{
-    display: none;
-
-}
-
-#chamberlogo{
-    max-width: 100px;
-    float: left;
-}
-
-
-h1{
-    font-size: 1.25rem;
-    margin: 0.15rem;
-
-}
-
-h2{
-    font-size: 1rem;  
-    margin-bottom: 0.5rem;
-    background-color: #033B4F;
-    color: #ffff;
-    font-family: 'Oswald', sans-serif;
-}
-
-h1,h3{
-    color: #000;
-    font-family: 'Oswald', sans-serif;
-}
-
-
-header, nav, main, footer {
-    margin: 0 auto;
-    padding: 0.75rem;
-    font-family: 'Oswald', sans-serif;;
-}
-
-
-nav{
+#social-media{
+    grid-column: 2/3;
     display: block;
-    height: auto;
-    flex-direction: column;
-}
-nav a{
-    display: block;
-    padding: 15px;
-    color: #ffff;
-    text-decoration: none;
-}
-
-.navigation li{
-    display: none;
-}
-.navigation li:first-child{
-    display: block;
-}
-
-
-.responsive li{
-    display: block;
-}
-
-#header-img{
-    display:flex;
     align-items: center;
-    justify-content: flex-start;
-    flex:left;
+    margin-left:auto ;
 }
 
-#city{
-    font-size: 1rem;
-}
-#chamber{
-    font-size: 0.5rem;
-}
-#title{
-    flex-direction: column;
+#facebook,#linkedin{
+    margin:0;
+    min-width: 48px;
+    max-width: 50px;
 }
 
-section{
-    text-align: center;
+section {
+  text-align: center;
 }
 
-
-header, footer{
-    text-align: center;
-    background-color: #088a8f;
-    color: white;  
-      
+header,
+footer {
+  text-align: center;
+  background-color: #088a8f;
+  color: white;
 }
 
-header img{
-    width: 200px;
-    
-    height: auto;  
+header img {
+  width: 200px;
 
+  height: auto;
 }
-#name{
-    text-align:right;
-    
+#name {
+  text-align: right;
 }
-.obs{
-    color: #6c8e99;    
+.obs {
+  color: #6c8e99;
 }
 
-ul{
-    list-style-type: none;
+ul {
+  list-style-type: none;
 }
 
-#personas{
-    display:grid;
-    grid-template-columns:  1fr 1fr ;
-
-}
-
-#one{
-    grid-column: 1;
-    
-}
-
-#two{
-    grid-column: 2;
-}
-footer{
-    font-size: 1rem;
-    height: 90px; 
-}
-
-table, td {
-    font-size: 1.5rem;
-    border: 3px #033B4F;
-    border-style: solid;
-}
-td {
-    padding: 8px;
-}
-table{
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 100%;
-    overflow-x: auto;
-}
-
-#color1{
-    background-color: #088a8f;
-}
-#color2{
-    background-color: #000;
-}
-
-#color3{
-    background-color: #ffff;
-}
-
-#color4{
-    background-color: #a5a5a5;
-    color: #000;
+footer {
+  font-size: 1rem;
+  height: 90px;
 }
 

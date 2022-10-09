@@ -2,11 +2,12 @@
     #chamberlogo{
         max-width: 400px;
     }
-    .navigation{
-        display: block;
+    header{
+        font-size: 30px;
     }
-    .navigation li:first-child{
-        display: none;
-        flex: 1 1 100%;
+
+    #title p{
+        font-size: 30px;
     }
+    
 }

@@ -8,3 +8,6 @@ currentDateField.innerHTML = `<em>${fulldate}</em>`;
 function toggleMenu(){
     document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
 }
+
+const modTracker = document.lastModified;
+document.querySelector("#lastUp").textContent=modTracker;

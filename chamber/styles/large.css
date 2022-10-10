@@ -1,4 +1,4 @@
-@media(min-width:1083px){
+@media(min-width:64em){
     body{
         font-size: 30px;
     }
@@ -23,8 +23,22 @@
     #chamberlogo{
         max-width: 400px;
     }
+
+    #grid{
+        grid-template-columns: auto auto auto auto;
+    }
+    #navbox{
+        grid-column: 3/5;
+        grid-row: 1/2;
+    }
+
+    #title{
+        grid-column: 2/3;
+    }
+
     .navigation {
         display: flex;
+
         
     }
     .navigation li:first-child{
@@ -38,5 +52,51 @@
         font-size: 30px;
     }
     
+    #footer-imgs{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #footer-second{
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+
+    #events{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    #weather{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    #joining{
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    #hero{
+        grid-column: 2/3;
+    }
+
+    #news{
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+
+    #spotlightsection{
+        grid-column: 3/4;
+        grid-row: 1/4;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #spotlight3{
+        display: block;
+    }
 
 }

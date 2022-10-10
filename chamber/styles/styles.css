@@ -26,6 +26,10 @@ main div {
 #spotlightsection {
   padding: 2%;
 }
+
+#spotlight3{
+  display: none;
+}
 #joining {
   display: none;
 }
@@ -92,9 +96,9 @@ nav a {
 }
 
 #grid{
-    display: grid;
-    grid-template-columns: 66px auto auto auto;
-    grid-template-rows: 1fr auto;
+  display: grid;
+  grid-template-columns: 66px auto auto auto;
+  grid-template-rows: 1fr auto;
 }
 #city {
   font-size: 1rem;
@@ -108,7 +112,7 @@ nav a {
 }
 #title {
   flex-direction: column;
-   align-self: center;
+  align-self: center;
   grid-column: 2/3;
 }
 
@@ -126,7 +130,7 @@ nav a {
 
 #facebook,#linkedin{
     margin:0;
-    min-width: 48px;
+    min-width: 40px;
     max-width: 50px;
 }
 
@@ -159,6 +163,11 @@ ul {
 
 footer {
   font-size: 1rem;
-  height: 90px;
+  max-height: fit-content;
 }
+
+#footer-imgs, img{
+  max-width:  100px;
+}
+
 

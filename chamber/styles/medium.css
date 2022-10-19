@@ -63,7 +63,8 @@
         grid-column: 3/4;
         grid-row: 1/2;
     }
-    #title p{
+    #title h1{
+        color: white;
         font-size: 30px;
         
     }

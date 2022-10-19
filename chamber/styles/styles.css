@@ -115,6 +115,9 @@ nav a {
   align-self: center;
   grid-column: 2/3;
 }
+#title h1{
+  color:#ffff
+}
 
 #todaysdate{
     grid-column: 1/ span 4;
@@ -143,6 +146,10 @@ footer {
   text-align: center;
   background-color: #055153;
   color: white;
+}
+
+footer a{
+  color:#ffff
 }
 
 header img {

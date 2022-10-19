@@ -52,7 +52,7 @@
         font-size: 30px;
     }
     
-    #footer-imgs{
+    .footer-imgs{
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -71,7 +71,7 @@
 
     #weather{
         grid-column: 1/2;
-        grid-row: 2/3;
+        grid-row: 2;
     }
 
     #joining{
@@ -81,11 +81,12 @@
 
     #hero{
         grid-column: 2/3;
+        grid-row: 1/3;
     }
 
     #news{
         grid-column: 2/3;
-        grid-row: 2/3;
+        grid-row: 3/4;
     }
 
     #spotlightsection{
@@ -97,6 +98,21 @@
 
     #spotlight3{
         display: block;
+    }
+    #hero-img{
+        max-width: 200%;
+        max-height: 90em;
+    }
+
+    #hero-msg{
+        position: absolute;
+        top: 60%;
+        left: 43%;
+    }
+    #hero-button{
+        
+        top: 100%;
+        left: 45%;
     }
 
 }
